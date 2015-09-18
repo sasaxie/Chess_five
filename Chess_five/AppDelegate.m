@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainChessController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    MainChessController *MY_main = [[MainChessController alloc]init];
+    //创建
+    UINavigationController *MY_nav = [[UINavigationController alloc]initWithRootViewController:MY_main];
+    self.window.rootViewController = MY_nav;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

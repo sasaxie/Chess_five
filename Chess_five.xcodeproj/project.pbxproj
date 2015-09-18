@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC95B3851B71869600D90369 /* star_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3831B71869600D90369 /* star_0.png */; };
+		BC95B3861B71869600D90369 /* star_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3841B71869600D90369 /* star_1.png */; };
+		BC95B3881B718C9100D90369 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC95B3871B718C9100D90369 /* AudioToolbox.framework */; };
+		BC95B38A1B7197F300D90369 /* blackmusic2.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3891B7197F300D90369 /* blackmusic2.wav */; };
+		BC95B38C1B71981300D90369 /* blackmusic1.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC95B38B1B71981300D90369 /* blackmusic1.wav */; };
+		BC95B38E1B71984300D90369 /* chess.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC95B38D1B71984300D90369 /* chess.wav */; };
+		BC95B3901B71993400D90369 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC95B38F1B71993400D90369 /* win.wav */; };
+		BC95B3951B71A0F000D90369 /* 选中白子.bmp in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3911B71A0F000D90369 /* 选中白子.bmp */; };
+		BC95B3961B71A0F000D90369 /* 选中黑子.bmp in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3921B71A0F000D90369 /* 选中黑子.bmp */; };
+		BC95B3971B71A0F000D90369 /* 白子副本.bmp in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3931B71A0F000D90369 /* 白子副本.bmp */; };
+		BC95B3981B71A0F000D90369 /* 黑子副本.bmp in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3941B71A0F000D90369 /* 黑子副本.bmp */; };
+		BC95B39B1B71A11C00D90369 /* ChessBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = BC95B39A1B71A11C00D90369 /* ChessBoard.m */; };
+		BC95B3A01B71B46300D90369 /* Ls_ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC95B39D1B71B46300D90369 /* Ls_ThirdViewController.m */; };
+		BC95B3A11B71B46300D90369 /* Ls_SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC95B39F1B71B46300D90369 /* Ls_SecondViewController.m */; };
+		BC95B3A31B71B53F00D90369 /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3A21B71B53F00D90369 /* beijing.jpg */; };
+		BC95B3A71B71B89D00D90369 /* Chessboard1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3A61B71B89D00D90369 /* Chessboard1.png */; };
+		BC95B3B21B71BB9800D90369 /* 白子1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3AA1B71BB9800D90369 /* 白子1.png */; };
+		BC95B3B41B71BB9800D90369 /* 黑子1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3AC1B71BB9800D90369 /* 黑子1.png */; };
+		BC95B3B61B71BB9800D90369 /* Chessboard1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3AE1B71BB9800D90369 /* Chessboard1.png */; };
+		BC95B3B71B71BB9800D90369 /* Chessboard2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3AF1B71BB9800D90369 /* Chessboard2.png */; };
+		BC95B3B81B71BB9800D90369 /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3B01B71BB9800D90369 /* p1.png */; };
+		BC95B3B91B71BB9800D90369 /* p2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3B11B71BB9800D90369 /* p2.png */; };
+		BC95B3BB1B71BC2B00D90369 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3BA1B71BC2B00D90369 /* background1.png */; };
+		BC95B3C41B71C44300D90369 /* 白子1选中.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3BC1B71C44300D90369 /* 白子1选中.png */; };
+		BC95B3C51B71C44300D90369 /* 黑子1选中.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3BD1B71C44300D90369 /* 黑子1选中.png */; };
+		BC95B3C61B71C44300D90369 /* p11.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3BE1B71C44300D90369 /* p11.png */; };
+		BC95B3C71B71C44300D90369 /* p11选中.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3BF1B71C44300D90369 /* p11选中.png */; };
+		BC95B3C81B71C44300D90369 /* p22.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3C01B71C44300D90369 /* p22.png */; };
+		BC95B3C91B71C44300D90369 /* p22选中.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3C11B71C44300D90369 /* p22选中.png */; };
+		BC95B3CA1B71C44300D90369 /* star_0选中.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3C21B71C44300D90369 /* star_0选中.png */; };
+		BC95B3CB1B71C44300D90369 /* star_1选中.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3C31B71C44300D90369 /* star_1选中.png */; };
+		BC95B3CF1B71CD6700D90369 /* 禁手模式简介.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3CE1B71CD6700D90369 /* 禁手模式简介.png */; };
+		BC95B3D11B71CD7100D90369 /* 普通模式简介.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3D01B71CD7100D90369 /* 普通模式简介.png */; };
+		BC95B3D31B71CD7A00D90369 /* 图片模式简介.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3D21B71CD7A00D90369 /* 图片模式简介.png */; };
+		BC95B3D51B71D12B00D90369 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3D41B71D12B00D90369 /* 首页.png */; };
+		BC95B3D71B71D13600D90369 /* 按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3D61B71D13600D90369 /* 按钮.png */; };
+		BC95B3D91B71D39F00D90369 /* 年轮.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC95B3D81B71D39F00D90369 /* 年轮.mp3 */; };
 		BCEA8EC71B70C4B600D9013A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEA8EC61B70C4B600D9013A /* Foundation.framework */; };
 		BCEA8EC91B70C4B600D9013A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEA8EC81B70C4B600D9013A /* CoreGraphics.framework */; };
 		BCEA8ECB1B70C4B600D9013A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEA8ECA1B70C4B600D9013A /* UIKit.framework */; };
@@ -19,6 +56,14 @@
 		BCEA8EE21B70C4B600D9013A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEA8ECA1B70C4B600D9013A /* UIKit.framework */; };
 		BCEA8EEA1B70C4B600D9013A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCEA8EE81B70C4B600D9013A /* InfoPlist.strings */; };
 		BCEA8EEC1B70C4B600D9013A /* Chess_fiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEA8EEB1B70C4B600D9013A /* Chess_fiveTests.m */; };
+		BCEA8EF71B70C50F00D9013A /* MainChessController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEA8EF61B70C50F00D9013A /* MainChessController.m */; };
+		BCEA8EFA1B70C54A00D9013A /* IntroduceChessController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEA8EF91B70C54A00D9013A /* IntroduceChessController.m */; };
+		BCEA8EFD1B70D5D000D9013A /* NormalChessController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEA8EFC1B70D5D000D9013A /* NormalChessController.m */; };
+		BCEA8F001B70D5F600D9013A /* SpecialChessController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEA8EFF1B70D5F600D9013A /* SpecialChessController.m */; };
+		BCEA8F031B70D61600D9013A /* PictureChessController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEA8F021B70D61600D9013A /* PictureChessController.m */; };
+		BCEA8F0D1B71003C00D9013A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEA8F0C1B71003C00D9013A /* AVFoundation.framework */; };
+		BCEA8F1C1B71014300D9013A /* 点击按钮.aiff in Resources */ = {isa = PBXBuildFile; fileRef = BCEA8F121B71014300D9013A /* 点击按钮.aiff */; };
+		BCEA8F1D1B71014300D9013A /* 背景音乐.caf in Resources */ = {isa = PBXBuildFile; fileRef = BCEA8F131B71014300D9013A /* 背景音乐.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +77,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC95B3831B71869600D90369 /* star_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_0.png; sourceTree = "<group>"; };
+		BC95B3841B71869600D90369 /* star_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_1.png; sourceTree = "<group>"; };
+		BC95B3871B718C9100D90369 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC95B3891B7197F300D90369 /* blackmusic2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blackmusic2.wav; sourceTree = "<group>"; };
+		BC95B38B1B71981300D90369 /* blackmusic1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blackmusic1.wav; sourceTree = "<group>"; };
+		BC95B38D1B71984300D90369 /* chess.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chess.wav; sourceTree = "<group>"; };
+		BC95B38F1B71993400D90369 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		BC95B3911B71A0F000D90369 /* 选中白子.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "选中白子.bmp"; sourceTree = "<group>"; };
+		BC95B3921B71A0F000D90369 /* 选中黑子.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "选中黑子.bmp"; sourceTree = "<group>"; };
+		BC95B3931B71A0F000D90369 /* 白子副本.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "白子副本.bmp"; sourceTree = "<group>"; };
+		BC95B3941B71A0F000D90369 /* 黑子副本.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "黑子副本.bmp"; sourceTree = "<group>"; };
+		BC95B3991B71A11200D90369 /* ChessBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoard.h; sourceTree = "<group>"; };
+		BC95B39A1B71A11C00D90369 /* ChessBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoard.m; sourceTree = "<group>"; };
+		BC95B39C1B71B46300D90369 /* Ls_ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ls_ThirdViewController.h; sourceTree = "<group>"; };
+		BC95B39D1B71B46300D90369 /* Ls_ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ls_ThirdViewController.m; sourceTree = "<group>"; };
+		BC95B39E1B71B46300D90369 /* Ls_SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ls_SecondViewController.h; sourceTree = "<group>"; };
+		BC95B39F1B71B46300D90369 /* Ls_SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ls_SecondViewController.m; sourceTree = "<group>"; };
+		BC95B3A21B71B53F00D90369 /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beijing.jpg; sourceTree = "<group>"; };
+		BC95B3A61B71B89D00D90369 /* Chessboard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chessboard1.png; sourceTree = "<group>"; };
+		BC95B3AA1B71BB9800D90369 /* 白子1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白子1.png"; sourceTree = "<group>"; };
+		BC95B3AC1B71BB9800D90369 /* 黑子1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑子1.png"; sourceTree = "<group>"; };
+		BC95B3AE1B71BB9800D90369 /* Chessboard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chessboard1.png; sourceTree = "<group>"; };
+		BC95B3AF1B71BB9800D90369 /* Chessboard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chessboard2.png; sourceTree = "<group>"; };
+		BC95B3B01B71BB9800D90369 /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p1.png; sourceTree = "<group>"; };
+		BC95B3B11B71BB9800D90369 /* p2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p2.png; sourceTree = "<group>"; };
+		BC95B3BA1B71BC2B00D90369 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		BC95B3BC1B71C44300D90369 /* 白子1选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白子1选中.png"; sourceTree = "<group>"; };
+		BC95B3BD1B71C44300D90369 /* 黑子1选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑子1选中.png"; sourceTree = "<group>"; };
+		BC95B3BE1B71C44300D90369 /* p11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p11.png; sourceTree = "<group>"; };
+		BC95B3BF1B71C44300D90369 /* p11选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p11选中.png"; sourceTree = "<group>"; };
+		BC95B3C01B71C44300D90369 /* p22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p22.png; sourceTree = "<group>"; };
+		BC95B3C11B71C44300D90369 /* p22选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p22选中.png"; sourceTree = "<group>"; };
+		BC95B3C21B71C44300D90369 /* star_0选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_0选中.png"; sourceTree = "<group>"; };
+		BC95B3C31B71C44300D90369 /* star_1选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_1选中.png"; sourceTree = "<group>"; };
+		BC95B3CE1B71CD6700D90369 /* 禁手模式简介.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "禁手模式简介.png"; sourceTree = "<group>"; };
+		BC95B3D01B71CD7100D90369 /* 普通模式简介.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "普通模式简介.png"; sourceTree = "<group>"; };
+		BC95B3D21B71CD7A00D90369 /* 图片模式简介.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图片模式简介.png"; sourceTree = "<group>"; };
+		BC95B3D41B71D12B00D90369 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
+		BC95B3D61B71D13600D90369 /* 按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮.png"; sourceTree = "<group>"; };
+		BC95B3D81B71D39F00D90369 /* 年轮.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "年轮.mp3"; sourceTree = "<group>"; };
 		BCEA8EC31B70C4B600D9013A /* Chess_five.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess_five.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEA8EC61B70C4B600D9013A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCEA8EC81B70C4B600D9013A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +133,19 @@
 		BCEA8EE71B70C4B600D9013A /* Chess_fiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chess_fiveTests-Info.plist"; sourceTree = "<group>"; };
 		BCEA8EE91B70C4B600D9013A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCEA8EEB1B70C4B600D9013A /* Chess_fiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chess_fiveTests.m; sourceTree = "<group>"; };
+		BCEA8EF51B70C50F00D9013A /* MainChessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainChessController.h; sourceTree = "<group>"; };
+		BCEA8EF61B70C50F00D9013A /* MainChessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainChessController.m; sourceTree = "<group>"; };
+		BCEA8EF81B70C54A00D9013A /* IntroduceChessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroduceChessController.h; sourceTree = "<group>"; };
+		BCEA8EF91B70C54A00D9013A /* IntroduceChessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroduceChessController.m; sourceTree = "<group>"; };
+		BCEA8EFB1B70D5D000D9013A /* NormalChessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalChessController.h; sourceTree = "<group>"; };
+		BCEA8EFC1B70D5D000D9013A /* NormalChessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalChessController.m; sourceTree = "<group>"; };
+		BCEA8EFE1B70D5F600D9013A /* SpecialChessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialChessController.h; sourceTree = "<group>"; };
+		BCEA8EFF1B70D5F600D9013A /* SpecialChessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialChessController.m; sourceTree = "<group>"; };
+		BCEA8F011B70D61600D9013A /* PictureChessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureChessController.h; sourceTree = "<group>"; };
+		BCEA8F021B70D61600D9013A /* PictureChessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureChessController.m; sourceTree = "<group>"; };
+		BCEA8F0C1B71003C00D9013A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BCEA8F121B71014300D9013A /* 点击按钮.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "点击按钮.aiff"; sourceTree = "<group>"; };
+		BCEA8F131B71014300D9013A /* 背景音乐.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "背景音乐.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC95B3881B718C9100D90369 /* AudioToolbox.framework in Frameworks */,
+				BCEA8F0D1B71003C00D9013A /* AVFoundation.framework in Frameworks */,
 				BCEA8EC91B70C4B600D9013A /* CoreGraphics.framework in Frameworks */,
 				BCEA8ECB1B70C4B600D9013A /* UIKit.framework in Frameworks */,
 				BCEA8EC71B70C4B600D9013A /* Foundation.framework in Frameworks */,
@@ -96,6 +196,8 @@
 		BCEA8EC51B70C4B600D9013A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC95B3871B718C9100D90369 /* AudioToolbox.framework */,
+				BCEA8F0C1B71003C00D9013A /* AVFoundation.framework */,
 				BCEA8EC61B70C4B600D9013A /* Foundation.framework */,
 				BCEA8EC81B70C4B600D9013A /* CoreGraphics.framework */,
 				BCEA8ECA1B70C4B600D9013A /* UIKit.framework */,
@@ -107,8 +209,40 @@
 		BCEA8ECC1B70C4B600D9013A /* Chess_five */ = {
 			isa = PBXGroup;
 			children = (
+				BC95B3D81B71D39F00D90369 /* 年轮.mp3 */,
+				BC95B3D61B71D13600D90369 /* 按钮.png */,
+				BC95B3D41B71D12B00D90369 /* 首页.png */,
+				BC95B3D21B71CD7A00D90369 /* 图片模式简介.png */,
+				BC95B3D01B71CD7100D90369 /* 普通模式简介.png */,
+				BC95B3CE1B71CD6700D90369 /* 禁手模式简介.png */,
+				BC95B3AA1B71BB9800D90369 /* 白子1.png */,
+				BC95B3BA1B71BC2B00D90369 /* background1.png */,
+				BC95B3AC1B71BB9800D90369 /* 黑子1.png */,
+				BC95B3AE1B71BB9800D90369 /* Chessboard1.png */,
+				BC95B3AF1B71BB9800D90369 /* Chessboard2.png */,
+				BC95B3B01B71BB9800D90369 /* p1.png */,
+				BC95B3B11B71BB9800D90369 /* p2.png */,
+				BC95B3831B71869600D90369 /* star_0.png */,
+				BC95B3841B71869600D90369 /* star_1.png */,
+				BCEA8F0E1B71014300D9013A /* Resources */,
 				BCEA8ED51B70C4B600D9013A /* AppDelegate.h */,
 				BCEA8ED61B70C4B600D9013A /* AppDelegate.m */,
+				BCEA8EF51B70C50F00D9013A /* MainChessController.h */,
+				BCEA8EF61B70C50F00D9013A /* MainChessController.m */,
+				BCEA8EF81B70C54A00D9013A /* IntroduceChessController.h */,
+				BCEA8EF91B70C54A00D9013A /* IntroduceChessController.m */,
+				BC95B39C1B71B46300D90369 /* Ls_ThirdViewController.h */,
+				BC95B39D1B71B46300D90369 /* Ls_ThirdViewController.m */,
+				BC95B39E1B71B46300D90369 /* Ls_SecondViewController.h */,
+				BC95B39F1B71B46300D90369 /* Ls_SecondViewController.m */,
+				BCEA8EFB1B70D5D000D9013A /* NormalChessController.h */,
+				BCEA8EFC1B70D5D000D9013A /* NormalChessController.m */,
+				BCEA8EFE1B70D5F600D9013A /* SpecialChessController.h */,
+				BCEA8EFF1B70D5F600D9013A /* SpecialChessController.m */,
+				BC95B3991B71A11200D90369 /* ChessBoard.h */,
+				BC95B39A1B71A11C00D90369 /* ChessBoard.m */,
+				BCEA8F011B70D61600D9013A /* PictureChessController.h */,
+				BCEA8F021B70D61600D9013A /* PictureChessController.m */,
 				BCEA8ED81B70C4B600D9013A /* Images.xcassets */,
 				BCEA8ECD1B70C4B600D9013A /* Supporting Files */,
 			);
@@ -142,6 +276,41 @@
 				BCEA8EE81B70C4B600D9013A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCEA8F0E1B71014300D9013A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC95B3BC1B71C44300D90369 /* 白子1选中.png */,
+				BC95B3BD1B71C44300D90369 /* 黑子1选中.png */,
+				BC95B3BE1B71C44300D90369 /* p11.png */,
+				BC95B3BF1B71C44300D90369 /* p11选中.png */,
+				BC95B3C01B71C44300D90369 /* p22.png */,
+				BC95B3C11B71C44300D90369 /* p22选中.png */,
+				BC95B3C21B71C44300D90369 /* star_0选中.png */,
+				BC95B3C31B71C44300D90369 /* star_1选中.png */,
+				BC95B3A61B71B89D00D90369 /* Chessboard1.png */,
+				BC95B3A21B71B53F00D90369 /* beijing.jpg */,
+				BC95B3911B71A0F000D90369 /* 选中白子.bmp */,
+				BC95B3921B71A0F000D90369 /* 选中黑子.bmp */,
+				BC95B3931B71A0F000D90369 /* 白子副本.bmp */,
+				BC95B3941B71A0F000D90369 /* 黑子副本.bmp */,
+				BC95B38F1B71993400D90369 /* win.wav */,
+				BC95B38D1B71984300D90369 /* chess.wav */,
+				BC95B38B1B71981300D90369 /* blackmusic1.wav */,
+				BC95B3891B7197F300D90369 /* blackmusic2.wav */,
+				BCEA8F0F1B71014300D9013A /* Audio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BCEA8F0F1B71014300D9013A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BCEA8F121B71014300D9013A /* 点击按钮.aiff */,
+				BCEA8F131B71014300D9013A /* 背景音乐.caf */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +388,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC95B3D71B71D13600D90369 /* 按钮.png in Resources */,
+				BC95B3901B71993400D90369 /* win.wav in Resources */,
+				BC95B3B41B71BB9800D90369 /* 黑子1.png in Resources */,
+				BC95B3BB1B71BC2B00D90369 /* background1.png in Resources */,
+				BC95B3D31B71CD7A00D90369 /* 图片模式简介.png in Resources */,
+				BC95B3981B71A0F000D90369 /* 黑子副本.bmp in Resources */,
+				BC95B3C41B71C44300D90369 /* 白子1选中.png in Resources */,
+				BC95B38A1B7197F300D90369 /* blackmusic2.wav in Resources */,
+				BC95B3C61B71C44300D90369 /* p11.png in Resources */,
+				BC95B3B21B71BB9800D90369 /* 白子1.png in Resources */,
+				BC95B3CA1B71C44300D90369 /* star_0选中.png in Resources */,
+				BC95B3971B71A0F000D90369 /* 白子副本.bmp in Resources */,
+				BC95B3B61B71BB9800D90369 /* Chessboard1.png in Resources */,
+				BC95B3861B71869600D90369 /* star_1.png in Resources */,
+				BC95B3D51B71D12B00D90369 /* 首页.png in Resources */,
+				BCEA8F1D1B71014300D9013A /* 背景音乐.caf in Resources */,
+				BC95B3D91B71D39F00D90369 /* 年轮.mp3 in Resources */,
+				BC95B3A31B71B53F00D90369 /* beijing.jpg in Resources */,
+				BC95B3C81B71C44300D90369 /* p22.png in Resources */,
+				BC95B3B71B71BB9800D90369 /* Chessboard2.png in Resources */,
+				BC95B3B91B71BB9800D90369 /* p2.png in Resources */,
+				BC95B3B81B71BB9800D90369 /* p1.png in Resources */,
+				BC95B3C71B71C44300D90369 /* p11选中.png in Resources */,
+				BC95B3A71B71B89D00D90369 /* Chessboard1.png in Resources */,
+				BC95B3851B71869600D90369 /* star_0.png in Resources */,
+				BC95B3951B71A0F000D90369 /* 选中白子.bmp in Resources */,
+				BC95B38E1B71984300D90369 /* chess.wav in Resources */,
+				BC95B3C91B71C44300D90369 /* p22选中.png in Resources */,
 				BCEA8ED11B70C4B600D9013A /* InfoPlist.strings in Resources */,
+				BC95B3CF1B71CD6700D90369 /* 禁手模式简介.png in Resources */,
+				BC95B3C51B71C44300D90369 /* 黑子1选中.png in Resources */,
+				BC95B38C1B71981300D90369 /* blackmusic1.wav in Resources */,
+				BC95B3961B71A0F000D90369 /* 选中黑子.bmp in Resources */,
 				BCEA8ED91B70C4B600D9013A /* Images.xcassets in Resources */,
+				BC95B3CB1B71C44300D90369 /* star_1选中.png in Resources */,
+				BC95B3D11B71CD7100D90369 /* 普通模式简介.png in Resources */,
+				BCEA8F1C1B71014300D9013A /* 点击按钮.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +443,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEA8EFA1B70C54A00D9013A /* IntroduceChessController.m in Sources */,
+				BC95B3A01B71B46300D90369 /* Ls_ThirdViewController.m in Sources */,
+				BCEA8F031B70D61600D9013A /* PictureChessController.m in Sources */,
 				BCEA8ED71B70C4B600D9013A /* AppDelegate.m in Sources */,
+				BCEA8F001B70D5F600D9013A /* SpecialChessController.m in Sources */,
+				BC95B3A11B71B46300D90369 /* Ls_SecondViewController.m in Sources */,
+				BCEA8EFD1B70D5D000D9013A /* NormalChessController.m in Sources */,
+				BC95B39B1B71A11C00D90369 /* ChessBoard.m in Sources */,
+				BCEA8EF71B70C50F00D9013A /* MainChessController.m in Sources */,
 				BCEA8ED31B70C4B600D9013A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +653,7 @@
 				BCEA8EF11B70C4B600D9013A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCEA8EF21B70C4B600D9013A /* Build configuration list for PBXNativeTarget "Chess_fiveTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +662,7 @@
 				BCEA8EF41B70C4B600D9013A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
